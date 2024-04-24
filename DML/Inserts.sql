@@ -1,0 +1,14 @@
+INSERT INTO TEMPORADAS VALUES (2022);
+INSERT INTO CIRCUITOS VALUES (1, 'Circuito Internacional de Bahrein, Sakhir', 'Bahrein', '5,412 km');
+INSERT INTO GRANDES_PREMIOS VALUES (1, 2022, 1, STR_TO_DATE('2022-03-18', '%Y-%m-%d'), STR_TO_DATE('2022-03-20', '%Y-%m-%d'), '57', '308,238km', 0, '0 km');
+INSERT INTO EQUIPOS VALUES ('1', 'Red Bull', 'Reino Unido', 'Christian Horner', '759', '205000000');
+INSERT INTO EQUIPOS VALUES ('2', 'Ferrari', 'Italia', 'Mattia Binotto', '554','177000000');
+INSERT INTO VEHICULOS VALUES ('1', '1');
+INSERT INTO VEHICULOS VALUES ('11', '1');
+INSERT INTO VEHICULOS VALUES ('16', '2');
+INSERT INTO PILOTOS VALUES ('1', 'Max Verstappen', 'Países Bajos', '24', '1', '454', '25000000');
+INSERT INTO PILOTOS VALUES ('2', 'Sergio Perez', 'México', '32', '11', '308', '8000000');
+INSERT INTO PILOTOS VALUES ('3', 'Charles Lecrerc', 'Mónaco', '24', '16', '305', '12000000');
+INSERT INTO CLASIFICACION VALUES ('1', '1', '1', '16', '1:30:558', '15');
+INSERT INTO CARRERA VALUES ('1', '1', '16', '1', '57', '1', '25');
+INSERT INTO VUELTA_RAPIDA_CARRERA VALUES ('1', '1', '1', '16', '1:34.570', '51', '1');

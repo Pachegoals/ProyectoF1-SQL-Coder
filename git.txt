@@ -1,0 +1,4 @@
+1st commit: We've created the tables, the views and we've inserted just 1 row of each table to test if the Schema is working properly, we've decided not to put any historical data of 'Pilotos', 'Equipos' and 'Temporadas' because our goal is to record just one Season of the Formula 1 Championship, but obviously it could record any season.
+
+2nd commit: We've made a few changes on the functions to have them run them as smoothly as possible.
+
